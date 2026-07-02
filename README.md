@@ -22,7 +22,7 @@ source install/setup.bash
 
 ----
 
-##Helpful files in root directory:
+## Helpful files in root directory:
 
 ### .tmux.conf
 
