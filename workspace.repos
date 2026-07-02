@@ -1,180 +1,40 @@
 repositories:
-  mighty_ws/src/acl-mapping:
-    type: git
-    url: https://gitlab.com/mit-acl/lab/acl-mapping.git
-    version: 0d3875daf29d163a35c19d356c4652a749ed501d
-  mighty_ws/src/livox_laser_simulation_ros2:
-    type: git
-    url: https://github.com/kotakondo/livox_laser_simulation_ros2.git
-    version: 2f0024c1aebae0ad5d54e70672af824e8fd37dba
-  mighty_ws/src/gazebo_ros_pkgs:
-    type: git
-    url: https://github.com/kotakondo/gazebo_ros_pkgs.git
-    version: ed1f7b886971d7bf898e6e0f59c622df929c0521
-  mighty_ws/src/realsense_gazebo_plugin:
-    type: git
-    url: https://github.com/kotakondo/realsense_gazebo_plugin.git
-    version: 8c357e69da2160f54328db70915bd9b28eb975bf
-  mighty_ws/src/uav_simulator:
-    type: git
-    url: https://github.com/kotakondo/uav_simulator.git
-    version: d4e953b716789bbb2a687eb4a49fe85d58bc03bc
-  mighty_ws/src/dynus_interfaces:
-    type: git
-    url: https://github.com/kotakondo/dynus_interfaces.git
-    version: c43bcec6d4b67c6f8a8baabb1b2f8c1ba8b919d1
-  mighty_ws/src/mighty:
-    type: git
-    url: https://github.com/mit-acl/mighty.git
-    version: 03c54ae04c9203b8ea3cca65feac0ce88b2c7dc1
-  decomp_ws/src/DecompROS2:
-    type: git
-    url: https://github.com/kotakondo/DecompROS2.git
-    version: 959068dc8f8b1762cdffcaff8f2f41e03c5dc570
-  roman/dependencies/clipper:
-    type: git
-    url: https://github.com/mit-acl/clipper
-    version: 77d5e6835cd76f4053953bdb95b1cc469ad94d42
-  roman/dependencies/Kimera-RPGO:
-    type: git
-    url: git@github.com:MIT-SPARK/Kimera-RPGO.git
-    version: d28b4df0570d642a2bb00e511344ce1110f87519
-  roman:
-    type: git
-    url: git@github.com:mit-acl/roman.git
-    version: 0fc64671274badf9217ccf50a075bf1f3cec6d8b
-  zenoh_ws/src/zenoh_vendor:
-    type: git
-    url: https://github.com/kotakondo/zenoh_vendor.git
-    version: bbf06a1af6607d678615c9a613b8fabe39bf41fe
-  sando_ws/src/sando/deps/acl-mapping:
-    type: git
-    url: https://gitlab.com/mit-acl/lab/acl-mapping.git
-    version: 1d39f8c40442096ef42330fcfd4f1b7c9c223255
-  sando_ws/src/sando/deps/livox_ros_driver2:
-    type: git
-    url: https://github.com/kotakondo/livox_ros_driver2.git
-    version: 274aad204b5dfce15c648e88dfd375fa5d7b3026
-  sando_ws/src/sando/deps/livox_laser_simulation_ros2:
-    type: git
-    url: https://github.com/kotakondo/livox_laser_simulation_ros2.git
-    version: 044e83e6fc5d527b082852550d7206dd4308d950
-  sando_ws/src/sando/deps/Livox-SDK2:
-    type: git
-    url: https://github.com/Livox-SDK/Livox-SDK2.git
-    version: 6a940156dd7151c3ab6a52442d86bc83613bd11b
-  sando_ws/src/sando/deps/gazebo_ros_pkgs:
-    type: git
-    url: https://github.com/kotakondo/gazebo_ros_pkgs.git
-    version: ed1f7b886971d7bf898e6e0f59c622df929c0521
-  sando_ws/src/sando/deps/realsense_gazebo_plugin:
-    type: git
-    url: https://github.com/kotakondo/realsense_gazebo_plugin.git
-    version: 8c357e69da2160f54328db70915bd9b28eb975bf
-  sando_ws/src/sando/deps/unitree-go2-ros2:
-    type: git
-    url: https://github.com/kotakondo/unitree-go2-ros2.git
-    version: bee1e214dea3f746f6d1eabca774898645622e13
-  sando_ws/src/sando/deps/DecompROS2:
-    type: git
-    url: https://github.com/kotakondo/DecompROS2.git
-    version: a2bc42ed46bf934323994706f17af8a3883860ea
-  sando_ws/src/sando/deps/uav_simulator:
-    type: git
-    url: https://github.com/kotakondo/uav_simulator.git
-    version: b196208d3cbf0269b8e80220f7cc1cc992b6c7f8
-  sando_ws/src/sando/deps/dynus_interfaces:
-    type: git
-    url: https://github.com/kotakondo/dynus_interfaces.git
-    version: 628a682c6a12b07fb2be7cffb4782ccdfe5b323d
-  sando_ws/src/sando:
-    type: git
-    url: https://github.com/mit-acl/sando.git
-    version: c38a31af537c3927e5ea59e3963de5c1f125a076
   Livox-SDK2:
     type: git
     url: https://github.com/Livox-SDK/Livox-SDK2.git
     version: 6a940156dd7151c3ab6a52442d86bc83613bd11b
-  trajgen_ws/src/trajectory_generator_ros2:
+  decomp_ws/src/DecompROS2:
     type: git
-    url: git@github.com:jrached/trajectory_generator_ros2.git
-    version: 7d1c7db0f817635b8d0c259df75a60afd0c746f4
-  trajgen_ws/src/mission_mode:
-    type: git
-    url: git@github.com:jrached/mission_mode.git
-    version: b9b741c35ab5e93cbdad5119c4592e51a2be08cf
-  trajgen_ws/src/snapstack_msgs2:
-    type: git
-    url: git@github.com:jrached/snapstack_msgs2.git
-    version: 940b42e6eefbd3346b022d79038d903fc78b6d91
-  trajgen_ws/src/behavior_selector2:
-    type: git
-    url: git@github.com:jrached/behavior_selector2.git
-    version: 444f016eaa1e751721c5d4a7c02ce1b45ab83daa
-  livox_ws/src/livox_ros_driver2:
-    type: git
-    url: https://github.com/kotakondo/livox_ros_driver2.git
-    version: 274aad204b5dfce15c648e88dfd375fa5d7b3026
-  realsense-ros_ws/src/realsense-ros:
-    type: git
-    url: git@github.com:kotakondo/realsense-ros.git
-    version: 021416fdb85f93b8c6ea1133e2851b77b97359c2
-  dlio_ws/src/direct_lidar_inertial_odometry:
-    type: git
-    url: git@github.com:jrached/direct_lidar_inertial_odometry.git
-    version: 30b1852d8ef9c6f42afaf10cd3eea4c0ec28b2f6
+    url: https://github.com/kotakondo/DecompROS2.git
+    version: 959068dc8f8b1762cdffcaff8f2f41e03c5dc570
   dynus_ws/src/acl-mapping:
     type: git
     url: git@gitlab.com:mit-acl/lab/acl-mapping.git
     version: 0135c4ac04ccb2d03439baff07033b84ca98c964
-  dynus_ws/src/octomap_mapping:
-    type: git
-    url: https://github.com/kotakondo/octomap_mapping.git
-    version: 787a6a83e528adfe769cce198ffc4ccd368bf8bc
-  dynus_ws/src/octomap_rviz_plugins:
-    type: git
-    url: https://github.com/kotakondo/octomap_rviz_plugins.git
-    version: 42be6dfff4faebea9656fba10ef8ec18ae874544
-  dynus_ws/src/livox_laser_simulation_ros2:
-    type: git
-    url: https://github.com/kotakondo/livox_laser_simulation_ros2.git
-    version: e342b41ac4b69d8c34027a5826ce2c69838e0fbf
   dynus_ws/src/dynus:
     type: git
     url: git@github.com:kotakondo/dynus.git
     version: 3d2ef9fe583e0527cd8b887214fc242f80a8613c
-  dynus_ws/src/gazebo_ros_pkgs:
-    type: git
-    url: https://github.com/kotakondo/gazebo_ros_pkgs.git
-    version: ed1f7b886971d7bf898e6e0f59c622df929c0521
-  dynus_ws/src/realsense_gazebo_plugin:
-    type: git
-    url: https://github.com/kotakondo/realsense_gazebo_plugin.git
-    version: 49a46b908acb9719b58572426e14b5d9e4021d85
   dynus_ws/src/dynus_interfaces:
     type: git
     url: git@github.com:kotakondo/dynus_interfaces.git
     version: 8b7237d293299a73a5986d044f5460ce432c4a8f
-  bridge_ws/src/mavros:
+  dynus_ws/src/gazebo_ros_pkgs:
     type: git
-    url: git@github.com:jrached/mavros.git
-    version: b298f581c9e73d0430e3991209f833309f3718aa
-  roman_ws/src/ros2_numpy:
+    url: https://github.com/kotakondo/gazebo_ros_pkgs.git
+    version: ed1f7b886971d7bf898e6e0f59c622df929c0521
+  dynus_ws/src/livox_laser_simulation_ros2:
     type: git
-    url: git@github.com:Box-Robotics/ros2_numpy.git
-    version: d5ebf723e1d2457d36fa89bf021b212e340c3c11
-  roman_ws/src/dynus_frame_align:
+    url: https://github.com/kotakondo/livox_laser_simulation_ros2.git
+    version: e342b41ac4b69d8c34027a5826ce2c69838e0fbf
+  dynus_ws/src/octomap_rviz_plugins:
     type: git
-    url: git@gitlab.com:mit-acl/sparse_mapping/dynus_frame_align.git
-    version: 20e37930d4dc1c7db8be033025d6488b3d0242ba
-  roman_ws/src/roman_ros:
+    url: https://github.com/kotakondo/octomap_rviz_plugins.git
+    version: 42be6dfff4faebea9656fba10ef8ec18ae874544
+  dynus_ws/src/realsense_gazebo_plugin:
     type: git
-    url: git@github.com:mit-acl/roman_ros.git
-    version: c4369515d92d83eac661cf5a588d649b44617f68
-  mavros_ws/src/mavlink:
-    type: git
-    url: https://github.com/ros2-gbp/mavlink-gbp-release.git
-    version: b20021add2f9220bf2607ec4636837695deba967
+    url: https://github.com/kotakondo/realsense_gazebo_plugin.git
+    version: 49a46b908acb9719b58572426e14b5d9e4021d85
   mavros_ws/src/mavros:
     type: git
     url: https://github.com/mavlink/mavros.git
@@ -183,3 +43,71 @@ repositories:
     type: git
     url: git@github.com:kotakondo/ros2_px4_stack.git
     version: 53fabef8c6ec8e09c24ef7623e1f2b11d86b395c
+  mighty_ws/src/acl-mapping:
+    type: git
+    url: https://gitlab.com/mit-acl/lab/acl-mapping.git
+    version: 0d3875daf29d163a35c19d356c4652a749ed501d
+  mighty_ws/src/dynus_interfaces:
+    type: git
+    url: https://github.com/kotakondo/dynus_interfaces.git
+    version: c43bcec6d4b67c6f8a8baabb1b2f8c1ba8b919d1
+  mighty_ws/src/gazebo_ros_pkgs:
+    type: git
+    url: https://github.com/kotakondo/gazebo_ros_pkgs.git
+    version: ed1f7b886971d7bf898e6e0f59c622df929c0521
+  mighty_ws/src/livox_laser_simulation_ros2:
+    type: git
+    url: https://github.com/kotakondo/livox_laser_simulation_ros2.git
+    version: 2f0024c1aebae0ad5d54e70672af824e8fd37dba
+  mighty_ws/src/mighty:
+    type: git
+    url: https://github.com/mit-acl/mighty.git
+    version: 03c54ae04c9203b8ea3cca65feac0ce88b2c7dc1
+  mighty_ws/src/realsense_gazebo_plugin:
+    type: git
+    url: https://github.com/kotakondo/realsense_gazebo_plugin.git
+    version: 8c357e69da2160f54328db70915bd9b28eb975bf
+  mighty_ws/src/uav_simulator:
+    type: git
+    url: https://github.com/kotakondo/uav_simulator.git
+    version: d4e953b716789bbb2a687eb4a49fe85d58bc03bc
+  roman:
+    type: git
+    url: git@github.com:mit-acl/roman.git
+    version: 0fc64671274badf9217ccf50a075bf1f3cec6d8b
+  roman/dependencies/clipper:
+    type: git
+    url: https://github.com/jingnanshi/pmc
+    version: 16af470353a784352760ec2deea25fa7ed602450
+  roman_ws/src/dynus_frame_align:
+    type: git
+    url: git@gitlab.com:mit-acl/sparse_mapping/dynus_frame_align.git
+    version: 20e37930d4dc1c7db8be033025d6488b3d0242ba
+  roman_ws/src/roman_ros:
+    type: git
+    url: git@github.com:mit-acl/roman_ros.git
+    version: c4369515d92d83eac661cf5a588d649b44617f68
+  roman_ws/src/ros2_numpy:
+    type: git
+    url: git@github.com:Box-Robotics/ros2_numpy.git
+    version: d5ebf723e1d2457d36fa89bf021b212e340c3c11
+  sando_ws/src/sando:
+    type: git
+    url: https://github.com/abusphere/sando.git
+    version: bf619f3234a2b568d77d652bc467ce0e9af9d1ea
+  trajgen_ws/src/behavior_selector2:
+    type: git
+    url: git@github.com:jrached/behavior_selector2.git
+    version: 444f016eaa1e751721c5d4a7c02ce1b45ab83daa
+  trajgen_ws/src/mission_mode:
+    type: git
+    url: git@github.com:jrached/mission_mode.git
+    version: b9b741c35ab5e93cbdad5119c4592e51a2be08cf
+  trajgen_ws/src/snapstack_msgs2:
+    type: git
+    url: git@github.com:jrached/snapstack_msgs2.git
+    version: 940b42e6eefbd3346b022d79038d903fc78b6d91
+  zenoh_ws/src/zenoh_vendor:
+    type: git
+    url: https://github.com/kotakondo/zenoh_vendor.git
+    version: bbf06a1af6607d678615c9a613b8fabe39bf41fe

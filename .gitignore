@@ -1,20 +1,15 @@
-# Ignore the actual source folders of the external repos recorded in workspace.repos
+# Keep tracking these pristine or isolated dependencies via vcstool/forks
+sando_ws/src/
 mighty_ws/src/
 decomp_ws/src/
 roman/
 zenoh_ws/src/
-sando_ws/src/
 Livox-SDK2/
-trajgen_ws/src/
-livox_ws/src/
-realsense-ros_ws/src/
-dlio_ws/src/
 dynus_ws/src/
-bridge_ws/src/
 roman_ws/src/
 mavros_ws/src/
 
-# Ignore standard ROS compilation artifacts
+# Ignore standard ROS compilation clutter
 build/
 install/
 log/
@@ -23,4 +18,3 @@ log/
 # System noise
 .DS_Store
 .vscode/
-
